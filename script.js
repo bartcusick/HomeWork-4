@@ -10,7 +10,7 @@ var answer4Btn = document.querySelector("#answer4");
 var countDown = document.querySelector("#timeNumber");
 var countDown = document.querySelector("#initialForm");
 var countDown = document.querySelector("#submitInitials");
-var count = 10;
+var count = 60;
 //
 var questionNumber = 0;
 var questionPage = "";
