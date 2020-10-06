@@ -10,11 +10,18 @@ var answer4Btn = document.querySelector("#answer4");
 var countDown = document.querySelector("#timeNumber");
 var countDown = document.querySelector("#initialForm");
 var countDown = document.querySelector("#submitInitials");
+localStorage.getItem("count");
+var submit = document.querySelector("#Submit")
 var count = 60;
 //
 var questionNumber = 0;
 var questionPage = "";
 var answer = 0;
+//
+function initialForm() {
+    localStorage.setItem("initials");
+    console.log("intermnal storage = " + imitials)
+}
 //
 function start() {
     timer();
@@ -257,6 +264,7 @@ function resultsPage() {
     document.getElementById("questions").innerHTML = "Your final score is " + count;
     document.getElementById("initialForm").style.visibility = "initial";
     document.getElementById("initialForm").style.visibility = "initial";
+    localStorage.setItem("count");
 }
 // function resultsPage() {
 
